@@ -1,10 +1,13 @@
 {
-  "name": "ponytail",
+  "name": "ponytail-skills-only",
   "version": "4.8.3",
-  "description": "Lazy senior dev mode. Forces the simplest, shortest solution that actually works: YAGNI, stdlib first, no unrequested abstractions.",
+  "description": "Ponytail skills only. No scripts, no runtime code.",
   "author": {
     "name": "Dietrich Gebert",
     "url": "https://github.com/DietrichGebert"
   },
-  "hooks": "./hooks/claude-codex-hooks.json"
+  "homepage": "https://github.com/5ei74R0/ponytail-skills",
+  "repository": "https://github.com/5ei74R0/ponytail-skills",
+  "license": "MIT",
+  "skills": "./skills/"
 }

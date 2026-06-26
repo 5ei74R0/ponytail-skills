@@ -1,15 +1,14 @@
 {
-  "name": "ponytail",
+  "name": "ponytail-skills-only",
   "interface": {
-    "displayName": "Ponytail"
+    "displayName": "Ponytail Skills Only"
   },
   "plugins": [
     {
-      "name": "ponytail",
+      "name": "ponytail-skills-only",
       "source": {
         "source": "url",
-        "url": "https://github.com/DietrichGebert/ponytail.git",
-        "ref": "main"
+        "url": "https://github.com/5ei74R0/ponytail-skills.git"
       },
       "policy": {
         "installation": "AVAILABLE",

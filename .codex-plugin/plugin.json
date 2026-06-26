@@ -1,32 +1,29 @@
 {
-  "name": "ponytail",
+  "name": "ponytail-skills-only",
   "version": "4.8.3",
-  "description": "Lazy senior dev mode. Forces the simplest, shortest solution that actually works: YAGNI, stdlib first, no unrequested abstractions.",
+  "description": "Ponytail skills only. No scripts, no runtime code.",
   "author": {
     "name": "Dietrich Gebert",
     "url": "https://github.com/DietrichGebert"
   },
-  "homepage": "https://github.com/DietrichGebert/ponytail",
-  "repository": "https://github.com/DietrichGebert/ponytail",
+  "homepage": "https://github.com/5ei74R0/ponytail-skills",
+  "repository": "https://github.com/5ei74R0/ponytail-skills",
   "license": "MIT",
-  "keywords": ["yagni", "minimalism", "code-review", "productivity"],
+  "keywords": ["yagni", "minimalism", "code-review", "productivity", "skills"],
   "skills": "./skills/",
-  "hooks": "./hooks/claude-codex-hooks.json",
   "interface": {
-    "displayName": "Ponytail",
-    "shortDescription": "Lazy senior developer mode",
-    "longDescription": "Prefer YAGNI, the standard library, native platform features, and the smallest correct implementation.",
-    "developerName": "Dietrich Gebert",
+    "displayName": "Ponytail Skills Only",
+    "shortDescription": "Ponytail prompts without runtime code",
+    "longDescription": "Skills-only distribution of Ponytail. Provides YAGNI, stdlib-first, minimal-solution prompts without lifecycle automation, scripts, MCP server, or local runtime code.",
+    "developerName": "5ei74R0",
     "category": "Productivity",
-    "capabilities": ["Instructions", "Lifecycle hooks"],
-    "websiteURL": "https://github.com/DietrichGebert/ponytail",
+    "capabilities": ["Instructions"],
+    "websiteURL": "https://github.com/5ei74R0/ponytail-skills",
     "defaultPrompt": [
       "Use Ponytail mode for this task.",
       "Review this diff for over-engineering.",
       "Find the smallest correct implementation."
     ],
-    "brandColor": "#111111",
-    "composerIcon": "./assets/logo.png",
-    "logo": "./assets/logo.png"
+    "brandColor": "#111111"
   }
 }
